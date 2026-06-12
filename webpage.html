@@ -2,11 +2,10 @@
 <html>
 <head>
   
-  <title>Cyberpunk Profile Boxes</title>
+  <title>Profile Page</title>
   <style>
-    /* 1. Background Setup (To match the image's vibe) */
+   
     body {
-      /* Dark purple background with a radial glow */
       background: radial-gradient(circle at center, #ae3295 0%, #2b0b3a 100%);
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       color: white;
@@ -19,73 +18,57 @@
     }
 
     .wide-box {
-      width: 100%;       /* Stretches to the full width of the available space */
-      max-width: none;   /* Removes the previous limit so it fills large laptop screens */
-      height: 80px;      /* Sets the height to exactly 50 pixels */
+      width: 100%;      
+      max-width: none;  
+      height: 80px;      
     }
 
     .wide-box {
-      /* Dark, slightly transparent inner background */
       background-color: rgba(54, 5, 86, 0.5); 
       
-      /* The thin white dashed border */
       border: 1px dashed rgba(255, 255, 255, 0.8); 
       
-      /* The rounded corners */
       border-radius: 16px; 
       
-      /* Space inside the box */
       padding: 40px; 
-      
-      /* Width of the box */
+        
       width: 1200px; 
       
-      /* Glassmorphism effect: slightly blurs the background behind the box */
       backdrop-filter: blur(6px); 
     }
    
-
-    /* 2. THE MAIN BOX CSS */
     .cyber-box {
-      /* Dark, slightly transparent inner background */
       background-color: rgba(20, 5, 30, 0.5); 
       
-      /* The thin white dashed border */
       border: 1px dashed rgba(255, 255, 255, 0.8); 
       
-      /* The rounded corners */
       border-radius: 16px; 
       
-      /* Space inside the box */
       padding: 35px; 
       
-      /* Width of the box */
       width: 320px; 
       
-      /* Glassmorphism effect: slightly blurs the background behind the box */
       backdrop-filter: blur(6px); 
     }
-    /* Container for the image */
+    
   .image-box {
-    width: 350px; /* Matches the width of your other boxes */
-    height:350px; /* Makes it a perfect square */
-    border-radius: 16px; /* Gives it the rounded corners */
-    overflow: hidden; /* Important: Prevents the square corners of the image from poking out */
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3); /* Optional: Adds a slight shadow to make it pop */
+    width: 350px;
+    height:350px;
+    border-radius: 16px; 
+    overflow: hidden; 
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3); 
   }
 
-  /* The actual image inside the box */
   .image-box img {
     width: 100%;
     height: 100%;
-    object-fit: cover; /* Ensures the image fills the box perfectly without getting stretched or squished */
+    object-fit: cover; 
   }
 
-    /* 3. THE BADGES (Inside the boxes) */
     .badge {
       color: white;
       border: 1.5px solid white;
-      border-radius: 20px; /* Creates the pill shape */
+      border-radius: 20px; 
       padding: 6px 18px;
       font-size: 15px;
       font-weight: 600;
@@ -94,38 +77,32 @@
     }
 
     .badge-pink {
-      background-color: #ff66b2; /* Neon pink */
-      box-shadow: 0 0 10px rgba(255, 102, 178, 0.4); /* Slight pink glow */
+      background-color: #ff66b2;
+      box-shadow: 0 0 10px rgba(255, 102, 178, 0.4);
     }
     
     .badge-blue {
-      background-color: #66b2ff; /* Neon blue */
-      box-shadow: 0 0 10px rgba(102, 178, 255, 0.4); /* Slight blue glow */
+      background-color: #66b2ff;
+      box-shadow: 0 0 10px rgba(102, 178, 255, 0.4); 
     }
-
-   
 
     .cyber-button {
       background-color: transparent;
-      color: #ff66b2; /* Neon Pink text */
+      color: #ff66b2;
       border: 2px solid #ff66b2;
       border-radius: 8px;
       padding: 10px 25px;
       font-size: 16px;
       font-weight: bold;
-      cursor: pointer; /* Changes the mouse arrow to a pointing hand */
-      transition: 0.3s ease; /* Makes the hover effect smooth */
+      cursor: pointer; 
+      transition: 0.3s ease; 
     }
 
-  /* This is what happens when you hover your mouse over the button */
     .cyber-button:hover {
       background-color: #e810d6;
       color: white;
-      box-shadow: 0 0 25px #e0b5d1; /* Adds a strong neon glow */
-    }
-    /* ... all your other CSS for boxes and buttons is up here ... */
-
-   
+      box-shadow: 0 0 25px #e0b5d1; 
+    } 
   </style>
    
 </head>
@@ -137,9 +114,8 @@
     
   </div>
   
-  <!-- The Profile Image Box -->
+ 
   <div class="image-box">
-    <!-- Replace 'profile-pic.jpg' with the exact name of your saved image file -->
     <img src="c:\Users\shourya pastol\Downloads\Shresth Pastor.jpg" alt="Profile Artwork">
   </div>
 
